@@ -2,10 +2,10 @@ package controllers
 
 import (
 	"encoding/json"
+	"github.com/waitlist-be/models"
+	"github.com/waitlist-be/utils"
 	"log"
 	"net/http"
-	"waitlist-be/models"
-	"waitlist-be/utils"
 )
 
 func AddToWaitlist(w http.ResponseWriter, r *http.Request) {

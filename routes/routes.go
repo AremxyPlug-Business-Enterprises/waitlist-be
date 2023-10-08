@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gorilla/mux"
-	"waitlist-be/controllers"
+	"github.com/waitlist-be/controllers"
 )
 
 func SetupRoutes(router *mux.Router) {
